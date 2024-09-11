@@ -233,7 +233,7 @@ mark, .mark {
 sub,
 sup {
   position: relative;
-  font-size: 0.7em;
+  font-size: 0.75em;
   line-height: 0;
   vertical-align: baseline;
 }
@@ -10862,7 +10862,7 @@ p.lead {
 
 .subheading {
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-weight: 500;
   font-size: 1.5rem;
 }
