@@ -179,14 +179,14 @@ abbr[title] {
 }
 
 address {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   font-style: normal;
   line-height: inherit;
 }
 
 ol,
 ul {
-  padding-left: 2rem;
+  padding-left: 1rem;
 }
 
 ol,
