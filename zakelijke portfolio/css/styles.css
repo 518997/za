@@ -643,6 +643,17 @@ progress {
   margin-left: auto;
 }
 
+.img-portfolio {
+    --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 50%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 3rem;
+}
+
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
@@ -4293,6 +4304,7 @@ textarea.form-control-lg {
 .card-group > .card {
   margin-bottom: var(--bs-card-group-margin);
 }
+
 @media (min-width: 576px) {
   .card-group {
     display: flex;
