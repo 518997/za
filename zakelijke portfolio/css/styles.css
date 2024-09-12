@@ -7037,10 +7037,6 @@ textarea.form-control-lg {
   display: table-cell !important;
 }
 
-.d-flex {
-  display: flex !important;
-}
-
 .d-inline-flex {
   display: inline-flex !important;
 }
@@ -8047,11 +8043,6 @@ textarea.form-control-lg {
 }
 
 /* rtl:end:remove */
-.text-primary {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
-}
-
 .text-secondary {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
