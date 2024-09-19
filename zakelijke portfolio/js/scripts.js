@@ -36,16 +36,13 @@ window.addEventListener('DOMContentLoaded', event => {
 const resources = {
   en: {
     translation: {
+      "Over mij": "About me",
       "Projecten": "Projects",
       "Vaardigheden": "Skills",
       "Interesses": "Interests",
       "Contact": "Contact",
       // Add more translations for the entire content
       'OVER MIJ': 'ABOUT ME',
-
-
-
-
       "Ik ben een tweedejaars softwareontwikkelaar met een sterke voorkeur voor front-end development. Graag deel ik in deze portfolio mijn projecten van het eerste jaar om mijn werk en vaardigheden aan jullie te laten zien.": "I am a second year software developer with a strong preference for front-end development. I would like to share my first year projects in this portfolio to show you my work and skills.",
       "Projecten": "Projects",
       "Dit project was de eerste website die we moesten ontwikkelen. We hebben het in een team van vier personen gerealiseerd, waarbij we gebruik hebben gemaakt van HTML, CSS en JavaScript. Aanvankelijk vond ik het coderen vrij uitdagend, maar het was tegelijkertijd ook opwindend.": "This project was the first website we had to develop. We did it in a team of four people, using HTML, CSS and JavaScript. Initially I found the coding quite challenging, but it was exciting at the same time.",
@@ -81,10 +78,11 @@ i18next.init({
 });
 
 function updateContent() {
-  document.querySelector("#one").textContent = i18next.t('OVER MIJ');
-  document.querySelector("#three").textContent = i18next.t('Extra Vaardigheden');
-  document.querySelector("#four").textContent = i18next.t('Extra Vaardigheden');
-  document.querySelector("#five").textContent = i18next.t('Extra Vaardigheden');
+  document.querySelector("#over").textContent = i18next.t('Over mij');
+  document.querySelector("#projecten").textContent = i18next.t('Projecten');
+  document.querySelector("#vaardigheden").textContent = i18next.t('Vaardigheden');
+  document.querySelector("#interesses").textContent = i18next.t('Interesses');
+  document.querySelector("#contact").textContent = i18next.t('Contact');
   document.querySelector("#about p").textContent = i18next.t('Ik ben een tweedejaars softwareontwikkelaar met een sterke voorkeur voor front-end development. Graag deel ik in deze portfolio mijn projecten van het eerste jaar om mijn werk en vaardigheden aan jullie te laten zien.');
   document.querySelector("#projecten h2").textContent = i18next.t('Projecten');
   document.querySelector("#projecten p").textContent = i18next.t('Dit project was de eerste website die we moesten ontwikkelen. We hebben het in een team van vier personen gerealiseerd, waarbij we gebruik hebben gemaakt van HTML, CSS en JavaScript. Aanvankelijk vond ik het coderen vrij uitdagend, maar het was tegelijkertijd ook opwindend.');
