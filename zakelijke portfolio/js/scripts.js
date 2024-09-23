@@ -79,7 +79,7 @@ i18next.init({
 
 function updateContent() {
   document.querySelector("#over").textContent = i18next.t('Over mij');
-  document.querySelector("#projecten").textContent = i18next.t('Projecten');
+  document.querySelector("#project").textContent = i18next.t('Projecten');
   document.querySelector("#vaardigheden").textContent = i18next.t('Vaardigheden');
   document.querySelector("#interesses").textContent = i18next.t('Interesses');
   document.querySelector("#contact").textContent = i18next.t('Contact');
